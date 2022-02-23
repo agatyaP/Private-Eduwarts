@@ -154,3 +154,41 @@ color: #FFFFFF;
   margin-bottom: 50px;
   top: -10px;
 }
+/* overlapping imgs */
+.images-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+
+.circular-image {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.circular-image:nth-child(2) {
+  transform: translateX(-85%);
+}
+
+
+
+.circular-image:nth-child(3) {
+  transform: translateX(-170%);
+}
+
+
+
+.circular-image:nth-child(4) {
+  transform: translateX(-255%);
+}
+
+.imagebox{
+  display: flex;
+}
+
+
+
+
